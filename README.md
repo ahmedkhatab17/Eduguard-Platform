@@ -1,7 +1,6 @@
 
 # Eduguard - Online Learning Platform
 
-Eduguard is an online learning platform designed to empower learners by providing access to courses across various fields, including web development, data science, cybersecurity, and more. With carefully crafted courses and structured learning tracks, Eduguard enables users to build essential skills and advance their careers
 
 ## Screenshots
 
