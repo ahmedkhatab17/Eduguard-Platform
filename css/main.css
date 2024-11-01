@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item {
+    height: 90vh;
+}
+.carousel{
+    box-sizing: border-box;
+    color: white;
+    height: 100%;
+    background-size: 100% 100%;
+}
+.carousel-item h1{
+    font-size: 60px;
+}
+.carousel-item p{
+    font-size: 18px;
+}
+.carousel-item .card-text{
+    font-size: 16px;
+}
+.navbar-nav {
+    flex: 1;
+    justify-content: center;
+    font-size: 24px;
+}
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.0058);
+
+}
+.tracks{
+    background-image:url(/img/bg.png);
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    background-size: 100% 100%;
+
+}
+.tracks .services-card{
+    height: 100%;
+    padding: 100px;
+
+}
+.tracks .parent{
+    position: relative;
+    overflow: hidden;
+    color: #007bff;
+}
+.tracks .child{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 100%;
+    transition: all 0.5s;
+}
+.tracks .parent:hover .child{
+    top: 0;
+
+}
+.about h2 {
+    position: relative;
+}
+.about h2::before{
+    content: "";
+    position: absolute;
+    top: 58%;
+    left: -75px;
+    width: 70px;
+    height: 3px;
+    background-color: #007bff;
+}
+.about h2::after{
+    content: "";
+    position: absolute;
+    top: 58%;
+    right: -75px;
+    width: 70px;
+    height: 3px;
+    background-color: #007bff;
+}
+.about span::before{
+    content: "";
+    position: absolute;
+    top: 38%;
+    left: -35px;
+    width: 30px;
+    height: 3px;
+    background-color: #007bff;
+}
+.about span::after{
+    content: "";
+    position: absolute;
+    top: 38%;
+    right: -35px;
+    width: 30px;
+    height: 3px;
+    background-color: #007bff;
+}
+
+
+.instructor .parent{
+    position: relative;
+    overflow: hidden;
+}
+.instructor .child{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    text-transform: capitalize;
+    top: 82%;
+    transition: all 0.5s;
+}
+.instructor .parent:hover .child{
+    top: 40%;
+}
+.info{
+    border-bottom: 3px solid black
+}
+.instructor .parent:hover .child .info{
+    border-bottom: none;
+}
+
+
