@@ -1,6 +1,10 @@
 
 # Eduguard - Online Learning Platform
 
+##Project over view
+
+Eduguard - Online Learning Platform
+Eduguard is an innovative online learning platform designed to provide high-quality educational resources and courses to learners worldwide. Our platform offers a wide range of courses across various subjects, catering to different learning needs and preferences. With a user-friendly interface and engaging content, Eduguard aims to make learning accessible, enjoyable, and effective for everyone.
 
 ## Screenshots
 
